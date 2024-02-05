@@ -5,7 +5,7 @@ if __name__ == "__main__":
     import sys
 
     if len(sys.argv) != 2:
-        print("Usage: python parse_pdf.py <pdf_path>")
+        print("Usage: python parses_pdf.py <pdf_path>")
         sys.exit(1)
 
     pdf_path = sys.argv[1]
